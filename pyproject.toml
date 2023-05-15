@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-8"
+version = "0.1.0"
+description = ""
+authors = ["kirienkovitaliy <kirienkovitaliy1989@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_8"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
