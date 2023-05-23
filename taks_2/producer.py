@@ -4,10 +4,8 @@ from mongoengine import connect
 from models import Contact
 import connect as conn
 
-
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost', port=5672))
 channel = connection.channel()
-
 
 fake = Faker()
 
